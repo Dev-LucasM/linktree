@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22.5rem;
+  height: 100vh;
+}
+
+.container-top {
+  border-bottom: 1px solid #000;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.95rem;
+}
+
+.container-top img {
+  width: 6rem;
+  border-radius: 50%;
+  margin-bottom: 0.56rem;
+}
+
+.container-top h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.container-email {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.container-email p {
+  font-weight: 400;
+}
+
+.container-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.container-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+
+.container-links a:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.container-links a:active {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.container-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 20px;
+  width: 80%;
+  height: 2.5rem;
+  weight: 400;
+}
+
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.email {
+  width: 2.4rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.face {
+  width: 2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container-logo img:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.container-logo img:active{
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  background-color: #A9A9A9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p{
+  font-weight: 400;
+  font-size: 0.8rem;
+}
